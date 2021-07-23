@@ -75,9 +75,7 @@ header .container nav ul li a:hover{
 .toggle span:nth-last-of-type(3){
     width: 100%;
 }
-.toggle:hover span:nth-last-of-type(2){
-width: 100%;
-}
+
 @media (min-width:768px){
     .toggle{
         display: none;
@@ -102,7 +100,8 @@ width: 100%;
         display: block;
     }
     header .container nav:hover .toggle span:nth-last-of-type(2){
-        width:100%;
+        width:100%;}
+        
     header .container nav ul:before{
         content: '';
         position: absolute;
