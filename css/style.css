@@ -38,6 +38,7 @@ header .container nav ul{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.5s;
 }
 header .container nav ul li a{
     display: block;
@@ -82,22 +83,17 @@ header .container nav ul li a:hover{
     }
 }
 @media (max-width:768px){
-    header .container nav{
-        justify-content: flex-end;
-        flex: 0;
-        transition: 0.5s;
-    }
     header .container nav ul{
-        position: absolute;
-        min-width: 300px;
+        position: absolute;      
         padding: 10px;
-        top: calc(100% + 24px);
+         width: 100%;
+        right: 0;
         background-color: #1a2935;
-        display: none;
+        transform: translatex(100%);
         
     }
     header .container nav:hover ul{
-        display: block;
+      transform: translatex(0);
     }
     header .container nav:hover .toggle span:nth-last-of-type(2){
         width:100%;}
