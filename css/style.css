@@ -96,7 +96,7 @@ header .container nav ul li a:hover{
         align-items: center;
         background-color: #1a2935;
         transform: scalex(0);
-        transform-origin:left;
+        transform-origin:right;
         
     }
     header .container nav:hover ul{
